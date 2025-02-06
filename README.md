@@ -16,8 +16,8 @@ In `HomeEnergyApi/Models/HomeDbContext.cs`
     - Create a public property `Homes` of type `DbSet<Home>`
         - Ensure this property has a getter/setter
 
-In `HomeEnergyApi/Models/Home.cs`
-- Create a private property on `Id` of type `int`
+In `HomeEnergyApi/Models/HomeModel.cs`
+- Create a public property on `Id` of type `int`
     - Give this property the `Key` attribute
     - Ensure this property has getter/setter
 
